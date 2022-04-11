@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myshopapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomyshop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logomyshop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyShopApp">
+        <activity
+            android:name=".Telas.TelaPagamentoPlanoPremium"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaPagamentoPlanoPremiumFinalizado"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaPedidoFinalizado"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaPagamentoProduto"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaInformacaoProduto"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaCadastrarProduto"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaCadastroUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaListarProdutos"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaAjuda"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaCarrinho"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaCategorias"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaPlanoPremium"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaFixaMenuLogo"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.TelaLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Telas.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

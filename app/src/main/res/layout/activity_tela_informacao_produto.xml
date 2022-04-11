@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaInformacaoProduto">
+
+    <ImageView
+        android:id="@+id/imagemProdutoSelecionado_TelaInformacaoProduto"
+        android:layout_width="344dp"
+        android:layout_height="220dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        app:srcCompat="@drawable/bicicleta1" />
+
+    <Button
+        android:id="@+id/botaoAddProdutoNoCarrinho_TelaInformacaoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar ao Carrinho"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/textoLojaProdutoSelecionado_TelaInformacaoProduto"
+        android:layout_width="328dp"
+        android:layout_height="69dp"
+        android:text="Bicicleta vendida e entregue pela loja ASD BIKES."
+        android:textColor="@color/corMenuForte"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoInfoProdutoSelecionado_TelaInformacaoProduto"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textoInfoProdutoSelecionado_TelaInformacaoProduto"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="Bicicleta aro 29'\nDisco de freio mecânico\nAmortecedor no quadro\nSuspensão dianteira\nR$1.200,00"
+        android:textColor="@color/corMenuForte"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <TextView
+        android:id="@+id/textoTituloProdutoSelecionado_TelaInformacaoProduto"
+        android:layout_width="251dp"
+        android:layout_height="57dp"
+        android:autoSizeTextType="uniform"
+        android:text="Informações do\nProduto selecionado"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaFixaMenuLogo">
+
+    <ImageButton
+        android:id="@+id/botaoImagemVoltar_TelaFixa"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageView
+        android:id="@+id/imagemLogo_TelaFixa"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012"
+        app:srcCompat="@drawable/logomyshop" />
+
+    <View
+        android:id="@+id/linhaAcimaDoMenu_TelaFixa"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/corMenuForte"
+        android:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+    />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMenu_TelaFixa"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:background="@color/corBarraLinear"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/botaoImagemHome_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoImagemVender_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_local_offer_24"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoImagemListarCategorias_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoImagemCarrinho_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoImagemPerfil_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_person_24"
+            />
+
+        <ImageButton
+            android:id="@+id/botaoImagemAjuda_TelaFixa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_help_outline_24"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

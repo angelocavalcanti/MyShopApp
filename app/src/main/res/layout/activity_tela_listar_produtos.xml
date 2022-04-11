@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaListarProdutos">
+
+    <TextView
+        android:id="@+id/textoListaProdutos_TelaListarProdutos"
+        android:layout_width="241dp"
+        android:layout_height="68dp"
+        android:text="Lista de Produtos"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutProdutosListados"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="3dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutProdutoListado1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto1_TelaListarProdutos"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta1" />
+
+                <Button
+                    android:id="@+id/botaoProdutoImagem1_TelaListarProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Bicicleta\nR$1.200,00" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LinearLayoutProdutoListado2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto2_TelaListarProdutos"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta2" />
+
+                <Button
+                    android:id="@+id/botaoProdutoImagem2_TelaListarProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Bicicleta\nR$1.200,00" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LinearLayoutProdutoListado3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto3_TelaListarProdutos"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta3" />
+
+                <Button
+                    android:id="@+id/botaoProdutoImagem3_TelaListarProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Bicicleta\nR$1.200,00" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LinearLayoutProdutoListado4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto4_TelaListarProdutos"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta4" />
+
+                <Button
+                    android:id="@+id/botaoProdutoImagem4_TelaListarProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Bicicleta\nR$1.200,00" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LinearLayoutProdutoListado5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto5_TelaListarProdutos"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta5" />
+
+                <Button
+                    android:id="@+id/botaoProdutoImagem5_TelaListarProdutos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Bicicleta\nR$1.200,00" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+</androidx.constraintlayout.widget.ConstraintLayout>

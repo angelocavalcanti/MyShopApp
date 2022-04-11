@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaCadastroUsuario">
+
+    <TextView
+        android:id="@+id/textoCadastro_TelaCadastroUsuario"
+        android:layout_width="268dp"
+        android:layout_height="63dp"
+        android:text="Cadastrar-se"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_TelaCadastroUsuario"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.525">
+
+            <RadioGroup
+                android:id="@+id/grupoRadioUsuarioEVendedor_TelaCadastroUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <RadioButton
+                    android:id="@+id/botaoRadioUsuario_TelaCadastroUsuario"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Sou Usuário" />
+
+                <RadioButton
+                    android:id="@+id/botaoRadioVendedor_TelaCadastroUsuario"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sou Vendedor" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/campoNome_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoEmail_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoDocumento_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="CPF"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoTelefone_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/campoSenha_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/campoCEP_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="CEP"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoEndereco_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Endereço completo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/campoBairro_TelaCadastroUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Bairro"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCidadeEstado_TelaCadastroUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/campoCidade_TelaCadastroUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Cidade"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/campoEstado_TelaCadastroUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Estado"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/botaoCadastrar_TelaCadastroUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/corMenu"
+        android:text="Cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <!-- O include abaixo inclui a tela fixa de menus e logo-->
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

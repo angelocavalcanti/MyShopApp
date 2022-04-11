@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>Escolha a Categoria</item>
+        <item>Bicicleta</item>
+        <item>Celular</item>
+        <item>Fone de ouvido</item>
+        <!-- A serem implementados futuramente:
+        <item>Camisas</item>
+        <item>Calças</item>
+        <item>Sapatos</item>
+        <item>Brinquedos</item>
+        <item>Bijuterias</item>
+        <item>Futebol</item>
+        <item>Acessórios</item>
+        -->
+    </string-array>
+</resources>

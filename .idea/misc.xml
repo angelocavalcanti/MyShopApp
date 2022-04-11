@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.1" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/drawable/ic_baseline_help_outline_24.xml" value="0.1" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/drawable/ic_baseline_local_offer_24.xml" value="0.1" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/SpinnerCategorias.xml" value="0.14492753623188406" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_ajuda.xml" value="0.25" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_cadastrar_produto.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_cadastro_usuario.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_carrinho.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_categorias.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_fixa_menu_logo.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_informacao_produto.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_listar_produtos.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_login.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_pagamento.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_pagamento_plano_premium.xml" value="0.1350210970464135" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_pagamento_plano_premium_finalizado.xml" value="0.15534420289855072" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_pagamento_produto.xml" value="0.15" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_pedido_finalizado.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_perfil.xml" value="0.22" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_plano_free.xml" value="0.18" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_plano_preimum.xml" value="0.19972826086956522" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_plano_premium.xml" value="0.33" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/activity_tela_registrar_vendedor.xml" value="0.17333333333333334" />
+        <entry key="..\:/ANDROIDProjetos/.gradle/MyShopApp/app/src/main/res/layout/estilo_spinner_categorias.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

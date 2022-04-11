@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaPagamentoPlanoPremium">
+
+    <TextView
+        android:id="@+id/textoPlanoPremium_TelaPagamentoPlanoPremium"
+        android:layout_width="316dp"
+        android:layout_height="92dp"
+        android:autoSizeTextType="uniform"
+        android:text="PLANO\nPREMIUM"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <TextView
+        android:id="@+id/textoFormaPagamento_TelaPagamentoPlanoPremium"
+        android:layout_width="286dp"
+        android:layout_height="37dp"
+        android:autoSizeTextType="uniform"
+        android:text="Forma de pagamento"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFormasPagamento_TelaPagamentoPlanoPremium"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63">
+
+        <RadioButton
+            android:id="@+id/botaoRadioCartao_TelaPagamentoPlanoPremium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Cartão"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/botaoRadioBoleto_TelaPagamentoPlanoPremium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boleto"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoPagar_TelaPagamentoPlanoPremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

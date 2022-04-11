@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaCategorias">
+
+    <TextView
+        android:id="@+id/textoCategorias_TelaCategorias"
+        android:layout_width="272dp"
+        android:layout_height="91dp"
+        android:text="Categorias"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/corMenuForte"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+    />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:textAlignment="center"
+        app:barrierMargin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutCategorias"
+            android:layout_width="310dp"
+            android:layout_height="410dp"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp">
+
+            <Button
+                android:id="@+id/botaoCategoriaBicicleta_TelaCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                android:text="Bicicletas" />
+
+            <Button
+                android:id="@+id/botaoCategoriaCelular_TelaCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                android:text="Celulares" />
+
+            <Button
+                android:id="@+id/botaoCategoriaFone_TelaCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                android:text="Fones de ouvido" />
+
+                <!-- Botões a serem implementados futuramente.
+                <Button
+                    android:id="@+id/botaoCategoriaCamisa_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Camisas" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaCalcas_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Calças" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaSapato_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Sapatos" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaBrinquedo_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Brinquedos" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaBijuteria_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Bijuterias" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaFutebol_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Futebol" />
+
+                <Button
+                    android:id="@+id/botaoCategoriaAcessorio_TelaCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_baseline_chevron_right_24"
+                    android:text="Acessórios" />
+                -->
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- O include abaixo inclui a tela fixa de menus e logo-->
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

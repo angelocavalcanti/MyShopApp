@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaCarrinho">
+
+    <TextView
+        android:id="@+id/textoTituloCarrinho_TelaCarrinho"
+        android:layout_width="216dp"
+        android:layout_height="65dp"
+        android:text="Carrinho"
+        android:textAlignment="center"
+        android:textColor="@color/corMenuForte"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="405dp"
+        android:layout_height="410dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutProdutosListados"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="3dp"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1_TelaCarrinho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto1_TelaCarrinho"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta1" />
+
+                <TextView
+                    android:id="@+id/textoProdutoImagem1_TelaCarrinho"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:text="Bicicleta branca com amortecedor central\nR$1.200,00"
+                    android:textAlignment="textStart"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2_TelaCarrinho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto2_TelaCarrinho"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta2" />
+
+                <TextView
+                    android:id="@+id/textoProdutoImagem2_TelaCarrinho"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:text="Bicicleta vermelha\nR$1.550,00"
+                    android:textAlignment="textStart"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3_TelaCarrinho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <ImageView
+                    android:id="@+id/imagemProduto3_TelaCarrinho"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/bicicleta5" />
+
+                <TextView
+                    android:id="@+id/textoProdutoImagem3_TelaCarrinho"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center"
+                    android:text="Bicicleta\nR$1.200,00"
+                    android:textAlignment="textStart"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout4_TelaCarrinho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <TextView
+                    android:id="@+id/textoInfoValorTotal_TelaCarrinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="90dp"
+                    android:paddingTop="20dp"
+                    android:text="Total = R$"
+                    android:textSize="22dp" />
+                <TextView
+                    android:id="@+id/textoValorTotal_TelaCarrinho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="20dp"
+                    android:text="3950"
+                    android:textSize="22dp" />
+            </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/botaoFinalizarCompra_TelaCarrinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar Compra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+
+    <!-- O include abaixo inclui a tela fixa de menus e logo-->
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

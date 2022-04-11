@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.MainActivity">
+
+    <!-- comando para inserir comentario aqui -->
+
+    <ImageView
+        android:id="@+id/imagemVisualizacaoPrincipal_TelaPrincipal"
+        android:layout_width="319dp"
+        android:layout_height="169dp"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        app:srcCompat="@drawable/bicicleta1" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemSetaEsquerda_TelaPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemSetaDireita_TelaPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationY="180"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemProdutoLinha0Coluna0_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/imagem1" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemProdutoLinha0Coluna1_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/imagem2" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemProdutoLinha1Coluna0_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/imagem3" />
+
+    <ImageButton
+        android:id="@+id/botaoImagemProdutoLinha1Coluna1_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:backgroundTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/imagem4"
+    />
+
+    <TextView
+        android:id="@+id/textoProdutoLinha0Coluna0_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:text="Monitor 26 polegadas\nR$570,00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoImagemProdutoLinha0Coluna0_TelaPrincipal"
+        app:layout_constraintVertical_bias="0.0"
+    />
+
+    <TextView
+        android:id="@+id/textoProdutoLinha0Coluna1_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Caixa de som cores\nR$500,00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoImagemProdutoLinha0Coluna1_TelaPrincipal"
+        app:layout_constraintVertical_bias="0.0"
+    />
+
+    <TextView
+        android:id="@+id/textoProdutoLinha1Coluna0_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Fone de ouvido preto\nR$250,00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoImagemProdutoLinha1Coluna0_TelaPrincipal"
+        app:layout_constraintVertical_bias="0.0"
+    />
+
+    <TextView
+        android:id="@+id/textoProdutoLinha1Coluna1_TelaPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Câmera fotográfica\nR$2.000,00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoImagemProdutoLinha1Coluna1_TelaPrincipal"
+        app:layout_constraintVertical_bias="0.0"
+    />
+
+    <View
+        android:id="@+id/linhaAcimaDoMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/corMenuForte"
+        android:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925"
+    />
+
+    <ImageView
+        android:id="@+id/imagemLogo_TelaPrincipal"
+        android:layout_width="114dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logomyshop"
+    />
+
+    <Button
+        android:id="@+id/botaoSair_TelaPrincipal"
+        android:layout_width="56dp"
+        android:layout_height="27dp"
+        android:backgroundTint="@color/corMenu"
+        android:insetTop="3dp"
+        android:insetBottom="3dp"
+        android:text="Sair"
+        android:textSize="9dp"
+        app:cornerRadius="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <SearchView
+        android:id="@+id/campoDePesquisa_TelaPrincipal"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:background="@color/corBarraLinear"
+        android:clickable="true"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.113"
+    />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMenu"
+        android:layout_width="412dp"
+        android:layout_height="55dp"
+        android:background="@color/corBarraLinear"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/botaoImagemHome_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/botaoImagemVender_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_local_offer_24" />
+
+        <ImageButton
+            android:id="@+id/botaoImagemCategorias_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_format_list_bulleted_24" />
+
+        <ImageButton
+            android:id="@+id/botaoImagemCarrinho_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+        <ImageButton
+            android:id="@+id/botaoImagemPerfil_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <ImageButton
+            android:id="@+id/botaoImagemAjuda_TelaPrincipal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/corMenu"
+            app:srcCompat="@drawable/ic_baseline_help_outline_24" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

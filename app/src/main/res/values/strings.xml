@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="largura_botao_icone">69dp</string>
+</resources>

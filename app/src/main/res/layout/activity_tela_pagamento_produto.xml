@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaPagamentoProduto">
+
+    <ImageView
+        android:id="@+id/imagemProduto_TelaPagamentoProduto"
+        android:layout_width="231dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182"
+        app:srcCompat="@drawable/bicicleta1" />
+
+    <TextView
+        android:id="@+id/textoFormaPagamento_TelaPagamentoProduto"
+        android:layout_width="204dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:text="Formas de pagamento"
+        android:textColor="@color/corMenuForte"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/textoEnderecoEntrega_TelaPagamentoProduto"
+        android:layout_width="204dp"
+        android:layout_height="35dp"
+        android:autoSizeTextType="uniform"
+        android:text="Endereço de entrega"
+        android:textColor="@color/corMenuForte"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupEnderecos_TelaPagamentoProduto"
+        android:layout_width="171dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788">
+
+        <RadioButton
+            android:id="@+id/botaoRadioEnderecoPrincipal_TelaPagamentoProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Endereço Principal" />
+
+        <RadioButton
+            android:id="@+id/botaoRadioEnderecoNovo_TelaPagamentoProduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outro Endereço" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupFormasPagamento_TelaPagamentoProduto"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552">
+
+        <RadioButton
+            android:id="@+id/botaoRadioCartao_TelaPagamentoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Cartão" />
+
+        <RadioButton
+            android:id="@+id/botaoRadioBoleto_TelaPagamentoProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boleto" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoPagar_TelaPagamentoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <include layout="@layout/activity_tela_fixa_menu_logo"></include>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
